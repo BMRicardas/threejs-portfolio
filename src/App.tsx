@@ -1,5 +1,7 @@
-import "./app.css";
-
 export function App() {
-  return <h1>Hello world</h1>;
+  return (
+    <main className="max-w-7xl">
+      <h1 className="text-2xl text-white underline">Hello world</h1>
+    </main>
+  );
 }
