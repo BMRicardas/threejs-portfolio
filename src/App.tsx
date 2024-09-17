@@ -1,6 +1,7 @@
 import { About } from "./sections/about";
 import { Hero } from "./sections/hero";
 import { Navbar } from "./sections/navbar";
+import { Projects } from "./sections/projects";
 
 export function App() {
   return (
@@ -8,6 +9,7 @@ export function App() {
       <Navbar />
       <Hero />
       <About />
+      <Projects />
     </main>
   );
 }
