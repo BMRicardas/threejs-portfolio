@@ -1,5 +1,3 @@
-import { TODO } from "../types/common";
-
 export const navLinks = [
   {
     id: 1,
@@ -249,9 +247,9 @@ export const myProjects = [
 ];
 
 export const calculateSizes = (
-  isSmall: TODO,
-  isMobile: TODO,
-  isTablet: TODO
+  isSmall: boolean,
+  isMobile: boolean,
+  isTablet: boolean
 ) => {
   return {
     deskScale: isSmall ? 0.05 : isMobile ? 0.06 : 0.065,
