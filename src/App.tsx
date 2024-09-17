@@ -1,10 +1,11 @@
+import { Navbar } from "./sections/navbar";
+import { Hero } from "./sections/hero";
 import { About } from "./sections/about";
+import { Projects } from "./sections/projects";
 import { Clients } from "./sections/clients";
+import { WorkExperience } from "./sections/experience";
 import { Contact } from "./sections/contact";
 import { Footer } from "./sections/footer";
-import { Hero } from "./sections/hero";
-import { Navbar } from "./sections/navbar";
-import { Projects } from "./sections/projects";
 
 export function App() {
   return (
